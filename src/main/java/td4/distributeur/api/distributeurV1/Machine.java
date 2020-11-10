@@ -2,7 +2,7 @@ package td4.distributeur.api.distributeurV1;
 
 public class Machine {
     private int fund;
-    private MachineEtat state;
+    private MachineState state;
 
 
     public Machine() {
@@ -10,7 +10,7 @@ public class Machine {
         this.state = AskState.getInstance();
     }
 
-    void setState(MachineEtat state) {
+    void setState(MachineState state) {
         this.state = state;
     }
 

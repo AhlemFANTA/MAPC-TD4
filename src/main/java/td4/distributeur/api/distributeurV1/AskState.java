@@ -1,6 +1,6 @@
 package td4.distributeur.api.distributeurV1;
 
-public class AskState implements MachineEtat {
+public class AskState implements MachineState {
     private static AskState instance;
 
     private AskState() {
