@@ -19,7 +19,7 @@ public class GiveState implements MachineEtat{
 
     @Override
     public void askCoffee(Machine m) {
-        System.out.println("ok => coffee");
+        System.out.println("ok => Coffee");
         m.resetFund();
         m.setState(AskState.getInstance());
     }

@@ -28,7 +28,7 @@ public class Refund implements MachineState {
     @Override
     public void getRefund(Machine m) {
         m.resetFund();
-        System.out.printf("caisse = %d%n", m.fund());
+        System.out.printf("fund = %d%n", m.fund());
         m.setState(AskState.getInstance());
     }
 }

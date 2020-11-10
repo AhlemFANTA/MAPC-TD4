@@ -20,14 +20,14 @@ public class GiveState implements MachineState {
 
     @Override
     public void askCoffee(Machine m) {
-        System.out.println("ok => café");
+        System.out.println("ok => coffee");
         m.decreaseFund();
         m.setState(Refund.getInstance());
     }
 
     @Override
     public void askTee(Machine m) {
-        System.out.println("ok => thé");
+        System.out.println("ok => Tea");
         m.decreaseFund();
         m.setState(Refund.getInstance());
     }
