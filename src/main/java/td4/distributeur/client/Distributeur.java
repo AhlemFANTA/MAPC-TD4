@@ -4,7 +4,7 @@ import td4.distributeur.api.distributeurV2.Machine;
 
 public class Distributeur {
     public static void main(String[] args) {
-        Machine m = new Machine(); // on est initialement en AmpouleEteinte
+        Machine m = new Machine();
         m.askCoffee(); // pas possible
         m.give(5); // c = 5
         m.askCoffee();// pas possible
