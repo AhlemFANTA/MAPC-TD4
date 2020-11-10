@@ -2,7 +2,7 @@ package td4.distributeur.client;
 
 import td4.distributeur.api.distributeurV2.Machine;
 
-public class App {
+public class Distributeur {
     public static void main(String[] args) {
         Machine m = new Machine(); // on est initialement en AmpouleEteinte
         m.askCoffee(); // pas possible
